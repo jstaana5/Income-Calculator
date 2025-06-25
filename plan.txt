@@ -1,0 +1,11 @@
+c++ or python?
+
+1. menu of states and asks the user to input the state they want to calculate the hourly income from
+2. while loop to keep asking the user until they enter a state, if does not match 
+(ie; spelling error or extra space) // switch case
+3. converts the user input to uppercase for edge case to match.
+4. once state is found, ask user to input hourly wage (integer) and program will round it to 2 dec spaces;
+keep asking if user doesnt enter anything
+5. ask user to input number of hours per week
+6. output will tax the hourly rate, multiply that by hours per week, multiply by 4 weeks 
+(assuming its per month) to give the total monthly w \\\age
